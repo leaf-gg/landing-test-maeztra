@@ -1,0 +1,36 @@
+.btn-default{
+  appearance: none;
+  border: none;
+  color: $white;
+  background: $orange;
+  border: 1px solid $orange;
+  border-radius: 4px;
+  @include fontRegular(16px);
+  padding: 12px;
+transition: .2s ease-in-out;
+  &:hover{
+    background: $white;
+    color: $orange;
+  }
+}
+
+.slick-arrow {
+  font-size: 0;
+  background: url('@/assets/icons/arrow-slider.svg') no-repeat center
+      center;
+  padding: 16px 19px;
+  border: none;
+  appearance: none;
+  position: absolute;
+  top: 240px;
+  z-index: 9;
+}
+
+.slick-prev {
+  transform: scaleX(-1);
+  left: 12px;
+}
+
+.slick-next {
+  right: 0px;
+}

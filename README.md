@@ -1,19 +1,21 @@
-# maeztra-landing
+# layout
 
-## Project setup
+Landing inicial utilizando Vue 2, SCSS e Typescript
+
+## Instalação de dependências
+
 ```
 npm install
 ```
 
-### Compiles and hot-reloads for development
+### Compila o projeto e agiliza o reload para develop
+
 ```
 npm run serve
 ```
 
-### Compiles and minifies for production
+### Para compilar o projeto e minificá-lo para prod
+
 ```
 npm run build
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
