@@ -1,4 +1,4 @@
-# layout
+# layout (versão github pages)
 
 Landing inicial utilizando Vue 2, SCSS e Typescript
 
